@@ -1,10 +1,10 @@
 # CS231N Final Project (Spring 2025)
 
-Project Title: Improving deep learning-based diagnosis of skin malignancies using the Melanoma Research Alliance Multimodal Image Dataset for AI-based Skin Cancer (MIDAS) diagnosis
+**Group:** Sophia Longo
 
-Group: Sophia Longo
+**Project Title:** Improving deep learning-based diagnosis of skin malignancies using the Melanoma Research Alliance Multimodal Image Dataset for AI-based Skin Cancer (MIDAS) diagnosis
 
-Note: Code transferred from Colab. Image and weight files omitted given Github constraints
+**Note:** Code transferred from Colab. All input images and model weight files omitted given Github constraints.
 
 ## Notebooks
 1. `starter.ipynb`: initializing codebase and importing dataests (ISIC, MIDAS)
