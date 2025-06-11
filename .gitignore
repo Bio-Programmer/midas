@@ -1,0 +1,17 @@
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.gsheet
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.weights
+*.tar
+*.tar.gz
+*.zip
+
+!training_procedure.png
