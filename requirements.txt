@@ -1,0 +1,10 @@
+torch
+torchvision
+efficientnet_pytorch
+pandas
+numpy
+scikit-learn
+matplotlib
+tqdm
+opencv-python
+albumentations

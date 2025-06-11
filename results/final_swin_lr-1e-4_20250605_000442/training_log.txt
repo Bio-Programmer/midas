@@ -1,0 +1,307 @@
+
+Epoch 1: Train Loss = 1.3921
+Epoch 1: Val Loss = 1.7032, Val Acc = 0.4828
+Val Acc = 0.4828, Val BMA = 0.4834
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.68      0.28      0.40      3266
+          NV       0.76      0.78      0.77      2147
+         BCC       0.41      0.70      0.51       903
+          AK       0.20      0.41      0.27       362
+         BKL       0.31      0.20      0.24       560
+          DF       0.17      0.45      0.25        60
+        VASC       0.11      0.51      0.18        76
+         SCC       0.11      0.53      0.18       163
+
+    accuracy                           0.48      7537
+   macro avg       0.34      0.48      0.35      7537
+weighted avg       0.60      0.48      0.49      7537
+
+Confusion Matrix:
+[[ 927  392  615  360  155   99  247  471]
+ [ 237 1668  124   34   42   12   21    9]
+ [  17   27  630   75   18    5   27  104]
+ [  25   14   66  149   27    1    2   78]
+ [ 138   93   77   75  112   10    6   49]
+ [   0    4    8   10    0   27    5    6]
+ [   4    4   11    1    4    0   39   13]
+ [   7    4   24   28    7    5    1   87]]
+
+
+Epoch 2: Train Loss = 0.9543
+Epoch 2: Val Loss = 1.8027, Val Acc = 0.4199
+Val Acc = 0.4199, Val BMA = 0.4676
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.78      0.23      0.36      3266
+          NV       0.81      0.58      0.67      2147
+         BCC       0.42      0.67      0.51       903
+          AK       0.17      0.07      0.10       362
+         BKL       0.19      0.72      0.30       560
+          DF       0.07      0.63      0.12        60
+        VASC       0.13      0.39      0.19        76
+         SCC       0.15      0.45      0.23       163
+
+    accuracy                           0.42      7537
+   macro avg       0.34      0.47      0.31      7537
+weighted avg       0.65      0.42      0.44      7537
+
+Confusion Matrix:
+[[ 754  255  548   81  839  332  178  279]
+ [ 139 1237   90    9  619   31    4   18]
+ [  14    9  605   14   91  101   13   56]
+ [   1    2  112   24  167   13    2   41]
+ [  37   13   50    8  404   33    4   11]
+ [   6    3    2    2    6   38    2    1]
+ [   8    5   18    0   10    3   30    2]
+ [   5    1   31    4   17   27    5   73]]
+
+EarlyStopping: No improvement in val loss for 1 epoch(s).
+
+Epoch 3: Train Loss = 0.7074
+Epoch 3: Val Loss = 1.8166, Val Acc = 0.4823
+Val Acc = 0.4823, Val BMA = 0.4974
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.67      0.31      0.42      3266
+          NV       0.79      0.66      0.72      2147
+         BCC       0.44      0.68      0.53       903
+          AK       0.17      0.64      0.27       362
+         BKL       0.33      0.42      0.37       560
+          DF       0.24      0.40      0.30        60
+        VASC       0.10      0.41      0.17        76
+         SCC       0.20      0.46      0.28       163
+
+    accuracy                           0.48      7537
+   macro avg       0.37      0.50      0.38      7537
+weighted avg       0.61      0.48      0.50      7537
+
+Confusion Matrix:
+[[1013  326  548  713  194   63  226  183]
+ [ 347 1409   75   56  228    6   10   16]
+ [  20   16  614  165   17    2    9   60]
+ [  15    1   56  233   28    0    8   21]
+ [  91   22   50  140  236    0    4   17]
+ [   1    5    7   10    1   24    8    4]
+ [   6    9   19    3    6    0   31    2]
+ [  12    1   33   31    6    4    1   75]]
+
+
+Epoch 4: Train Loss = 0.5664
+Epoch 4: Val Loss = 2.0422, Val Acc = 0.4792
+Val Acc = 0.4792, Val BMA = 0.5201
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.73      0.25      0.37      3266
+          NV       0.79      0.72      0.76      2147
+         BCC       0.35      0.78      0.49       903
+          AK       0.19      0.49      0.27       362
+         BKL       0.37      0.35      0.36       560
+          DF       0.13      0.52      0.21        60
+        VASC       0.19      0.43      0.26        76
+         SCC       0.17      0.61      0.27       163
+
+    accuracy                           0.48      7537
+   macro avg       0.37      0.52      0.37      7537
+weighted avg       0.63      0.48      0.49      7537
+
+Confusion Matrix:
+[[ 823  320  896  463  206  143  128  287]
+ [ 242 1546  161   55   75   31    2   35]
+ [   8   11  704  101   15   12    6   46]
+ [   7    2   90  179   33    1    3   47]
+ [  43   62   82  108  196   14    1   54]
+ [   0    0   14   10    0   31    1    4]
+ [   6    2   20    1    2    1   33   11]
+ [   2    3   30   23    2    3    0  100]]
+
+
+Epoch 5: Train Loss = 0.2974
+Epoch 5: Val Loss = 2.3023, Val Acc = 0.5286
+Val Acc = 0.5286, Val BMA = 0.5205
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.78      0.31      0.45      3266
+          NV       0.77      0.78      0.77      2147
+         BCC       0.37      0.80      0.51       903
+          AK       0.27      0.51      0.35       362
+         BKL       0.36      0.48      0.41       560
+          DF       0.20      0.48      0.28        60
+        VASC       0.13      0.42      0.20        76
+         SCC       0.21      0.38      0.27       163
+
+    accuracy                           0.53      7537
+   macro avg       0.39      0.52      0.41      7537
+weighted avg       0.65      0.53      0.53      7537
+
+Confusion Matrix:
+[[1019  415  853  312  255   85  177  150]
+ [ 184 1664  122   37  109    8   12   11]
+ [  17   18  725   46   37   13   18   29]
+ [  12    6   84  185   45    0    7   23]
+ [  61   49   80   80  268    7    1   14]
+ [   0    3   14    7    2   29    4    1]
+ [   9    9   17    4    5    0   32    0]
+ [  10    2   42   22   22    3    0   62]]
+
+
+Epoch 6: Train Loss = 0.1734
+Epoch 6: Val Loss = 2.6531, Val Acc = 0.5241
+Val Acc = 0.5241, Val BMA = 0.4997
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.72      0.34      0.46      3266
+          NV       0.78      0.72      0.75      2147
+         BCC       0.38      0.80      0.51       903
+          AK       0.24      0.40      0.30       362
+         BKL       0.30      0.53      0.39       560
+          DF       0.22      0.43      0.30        60
+        VASC       0.23      0.37      0.28        76
+         SCC       0.26      0.40      0.32       163
+
+    accuracy                           0.52      7537
+   macro avg       0.39      0.50      0.41      7537
+weighted avg       0.62      0.52      0.53      7537
+
+Confusion Matrix:
+[[1117  361  869  281  362   68   90  118]
+ [ 296 1549   79   25  174    6    3   15]
+ [  24   29  723   57   39    8    2   21]
+ [  22    7   84  143   85    1    1   19]
+ [  83   35   74   54  298    4    0   12]
+ [   1    4   14    8    3   26    0    4]
+ [   6   10   21    4    6    0   28    1]
+ [  10    1   44   21   18    3    0   66]]
+
+EarlyStopping: No improvement in val loss for 1 epoch(s).
+
+Epoch 7: Train Loss = 0.1567
+Epoch 7: Val Loss = 2.7705, Val Acc = 0.5318
+Val Acc = 0.5318, Val BMA = 0.4880
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.74      0.36      0.48      3266
+          NV       0.73      0.79      0.76      2147
+         BCC       0.42      0.70      0.52       903
+          AK       0.17      0.38      0.23       362
+         BKL       0.35      0.44      0.39       560
+          DF       0.25      0.45      0.33        60
+        VASC       0.19      0.39      0.26        76
+         SCC       0.21      0.39      0.27       163
+
+    accuracy                           0.53      7537
+   macro avg       0.38      0.49      0.40      7537
+weighted avg       0.62      0.53      0.54      7537
+
+Confusion Matrix:
+[[1176  477  637  433  245   65  111  122]
+ [ 216 1695   76   36  103    6    6    9]
+ [  35   44  631  101   39    5    6   42]
+ [  39   17   54  138   61    0    4   49]
+ [  90   72   55   76  248    2    0   17]
+ [   5    4   12    9    1   27    0    2]
+ [  10    8   19    7    2    0   30    0]
+ [  14    5   29   35   16    1    0   63]]
+
+EarlyStopping: No improvement in val loss for 2 epoch(s).
+
+Epoch 8: Train Loss = 0.0924
+Epoch 8: Val Loss = 3.2986, Val Acc = 0.5470
+Val Acc = 0.5470, Val BMA = 0.4903
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.74      0.36      0.48      3266
+          NV       0.69      0.83      0.75      2147
+         BCC       0.39      0.80      0.52       903
+          AK       0.29      0.31      0.30       362
+         BKL       0.40      0.41      0.40       560
+          DF       0.24      0.42      0.30        60
+        VASC       0.23      0.41      0.30        76
+         SCC       0.21      0.40      0.27       163
+
+    accuracy                           0.55      7537
+   macro avg       0.40      0.49      0.42      7537
+weighted avg       0.61      0.55      0.54      7537
+
+Confusion Matrix:
+[[1163  618  829  167  192   63   93  141]
+ [ 205 1779   76   16   51    6    2   12]
+ [  30   54  719   32   32    5    2   29]
+ [  48   21   88  112   52    0    3   38]
+ [ 101   95   64   43  229    2    2   24]
+ [   5    7   16    4    1   25    0    2]
+ [  10   10   18    3    2    0   31    2]
+ [  15    4   41   13   20    5    0   65]]
+
+EarlyStopping: No improvement in val loss for 3 epoch(s).
+
+Epoch 9: Train Loss = 0.0585
+Epoch 9: Val Loss = 3.7000, Val Acc = 0.5435
+Val Acc = 0.5435, Val BMA = 0.4837
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.77      0.34      0.47      3266
+          NV       0.68      0.86      0.76      2147
+         BCC       0.41      0.74      0.53       903
+          AK       0.22      0.34      0.27       362
+         BKL       0.33      0.42      0.37       560
+          DF       0.24      0.43      0.31        60
+        VASC       0.22      0.37      0.27        76
+         SCC       0.27      0.36      0.31       163
+
+    accuracy                           0.54      7537
+   macro avg       0.39      0.48      0.41      7537
+weighted avg       0.62      0.54      0.54      7537
+
+Confusion Matrix:
+[[1111  665  699  265  271   64   92   99]
+ [ 137 1839   51   22   82    5    2    9]
+ [  27   67  672   65   46    4    3   19]
+ [  45   16   92  123   68    0    4   14]
+ [  91  102   54   58  238    3    1   13]
+ [   8    8    8    5    2   26    0    3]
+ [   9   10   20    3    5    0   28    1]
+ [  15    5   34   25   20    5    0   59]]
+
+EarlyStopping: No improvement in val loss for 4 epoch(s).
+
+Epoch 10: Train Loss = 0.0526
+Epoch 10: Val Loss = 3.6702, Val Acc = 0.5423
+Val Acc = 0.5423, Val BMA = 0.4993
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.77      0.33      0.46      3266
+          NV       0.71      0.83      0.76      2147
+         BCC       0.40      0.79      0.53       903
+          AK       0.24      0.37      0.29       362
+         BKL       0.34      0.47      0.39       560
+          DF       0.24      0.42      0.30        60
+        VASC       0.22      0.39      0.28        76
+         SCC       0.22      0.40      0.29       163
+
+    accuracy                           0.54      7537
+   macro avg       0.39      0.50      0.41      7537
+weighted avg       0.63      0.54      0.54      7537
+
+Confusion Matrix:
+[[1078  577  758  253  301   65   97  137]
+ [ 160 1781   76   21   90    5    2   12]
+ [  20   47  713   55   36    4    3   25]
+ [  28   17   91  133   59    0    3   31]
+ [  92   68   61   54  262    2    1   20]
+ [   2    9   14    5    3   25    0    2]
+ [   9   10   17    4    6    0   30    0]
+ [  12    1   38   21   23    3    0   65]]
+
+EarlyStopping: No improvement in val loss for 5 epoch(s).
+Stopping early at epoch 10.

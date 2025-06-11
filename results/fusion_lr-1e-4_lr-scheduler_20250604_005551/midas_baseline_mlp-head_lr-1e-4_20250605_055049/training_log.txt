@@ -1,0 +1,216 @@
+
+Epoch 1: Train Loss = 1.7849
+Epoch 1: Val Loss = 1.9865, Val Acc = 0.3003
+Val Acc = 0.3003, Val BMA = 0.4098
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.59      0.05      0.10      3266
+          NV       0.81      0.66      0.73      2147
+         BCC       0.42      0.20      0.27       903
+          AK       0.21      0.17      0.19       362
+         BKL       0.16      0.43      0.23       560
+          DF       0.06      0.52      0.11        60
+        VASC       0.07      0.38      0.12        76
+         SCC       0.06      0.87      0.11       163
+
+    accuracy                           0.30      7537
+   macro avg       0.30      0.41      0.23      7537
+weighted avg       0.56      0.30      0.31      7537
+
+Confusion Matrix:
+[[ 171  227  176  183  631  290  319 1269]
+ [  94 1409   17    8  406   77    8  128]
+ [   5   47  177   22  127   78   42  405]
+ [   4    3   29   63  108    6    6  143]
+ [  14   47   11   25  241    9    5  208]
+ [   0    0    0    0    0   31    6   23]
+ [   0    2    8    0    2    4   29   31]
+ [   0    1    4    6    6    4    0  142]]
+
+
+Epoch 2: Train Loss = 1.2702
+Epoch 2: Val Loss = 2.0357, Val Acc = 0.3548
+Val Acc = 0.3548, Val BMA = 0.4424
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.76      0.08      0.14      3266
+          NV       0.76      0.76      0.76      2147
+         BCC       0.41      0.28      0.33       903
+          AK       0.24      0.15      0.19       362
+         BKL       0.16      0.51      0.24       560
+          DF       0.08      0.68      0.14        60
+        VASC       0.09      0.29      0.13        76
+         SCC       0.08      0.79      0.14       163
+
+    accuracy                           0.35      7537
+   macro avg       0.32      0.44      0.26      7537
+weighted avg       0.62      0.35      0.35      7537
+
+Confusion Matrix:
+[[ 252  342  275  138  887  298  197  877]
+ [  54 1641   20    5  279   79    4   65]
+ [   5   67  249   18  165   71   17  311]
+ [   3   11   37   56  145   10    5   95]
+ [  18   92   13   12  285   14    3  123]
+ [   0    0    1    0    6   41    2   10]
+ [   0    1    9    1   17    7   22   19]
+ [   0    3    9    8    8    7    0  128]]
+
+
+Epoch 3: Train Loss = 0.9626
+Epoch 3: Val Loss = 2.1281, Val Acc = 0.3497
+Val Acc = 0.3497, Val BMA = 0.4115
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.76      0.08      0.15      3266
+          NV       0.78      0.75      0.76      2147
+         BCC       0.40      0.25      0.31       903
+          AK       0.20      0.18      0.19       362
+         BKL       0.15      0.54      0.23       560
+          DF       0.09      0.42      0.15        60
+        VASC       0.08      0.32      0.13        76
+         SCC       0.08      0.77      0.14       163
+
+    accuracy                           0.35      7537
+   macro avg       0.32      0.41      0.26      7537
+weighted avg       0.62      0.35      0.35      7537
+
+Confusion Matrix:
+[[ 271  319  252  193 1006  150  231  844]
+ [  53 1600   19    8  334   51   10   72]
+ [   7   52  226   32  221   28   26  311]
+ [   2    5   31   64  153    1    7   99]
+ [  22   76   10   19  301    8    5  119]
+ [   0    1    4    0   11   25    3   16]
+ [   0    3    9    0   16    3   24   21]
+ [   0    5    8    9   14    2    0  125]]
+
+EarlyStopping: No improvement in BMA for 1 epoch(s).
+
+Epoch 4: Train Loss = 0.6779
+Epoch 4: Val Loss = 2.2440, Val Acc = 0.3650
+Val Acc = 0.3650, Val BMA = 0.4023
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.74      0.10      0.17      3266
+          NV       0.80      0.72      0.76      2147
+         BCC       0.38      0.38      0.38       903
+          AK       0.20      0.22      0.21       362
+         BKL       0.14      0.59      0.23       560
+          DF       0.11      0.35      0.17        60
+        VASC       0.08      0.26      0.12        76
+         SCC       0.08      0.60      0.15       163
+
+    accuracy                           0.36      7537
+   macro avg       0.32      0.40      0.27      7537
+weighted avg       0.62      0.36      0.37      7537
+
+Confusion Matrix:
+[[ 315  278  410  226 1130  109  207  591]
+ [  79 1546   38   16  370   36    7   55]
+ [   9   37  342   34  224    4   12  241]
+ [   1    4   51   80  155    3    4   64]
+ [  23   68   23   24  329    3    3   87]
+ [   0    1    8    3   16   21    4    7]
+ [   0    3    8    0   26    4   20   15]
+ [   0    3   21   14   22    5    0   98]]
+
+EarlyStopping: No improvement in BMA for 2 epoch(s).
+
+Epoch 5: Train Loss = 0.4298
+Epoch 5: Val Loss = 2.3659, Val Acc = 0.3787
+Val Acc = 0.3787, Val BMA = 0.3843
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.74      0.11      0.20      3266
+          NV       0.79      0.73      0.76      2147
+         BCC       0.37      0.42      0.39       903
+          AK       0.20      0.22      0.21       362
+         BKL       0.14      0.62      0.23       560
+          DF       0.12      0.23      0.16        60
+        VASC       0.10      0.25      0.15        76
+         SCC       0.09      0.48      0.16       163
+
+    accuracy                           0.38      7537
+   macro avg       0.32      0.38      0.28      7537
+weighted avg       0.61      0.38      0.38      7537
+
+Confusion Matrix:
+[[ 371  300  463  242 1201   73  143  473]
+ [  84 1563   45   17  377   18    4   39]
+ [  16   34  379   34  293    1   10  136]
+ [   1    7   51   81  170    2    4   46]
+ [  30   70   26   17  348    4    2   63]
+ [   0    3   12    3   20   14    3    5]
+ [   1    2   10    0   28    4   19   12]
+ [   0    5   32   15   30    2    0   79]]
+
+EarlyStopping: No improvement in BMA for 3 epoch(s).
+
+Epoch 6: Train Loss = 0.3237
+Epoch 6: Val Loss = 2.4708, Val Acc = 0.3902
+Val Acc = 0.3902, Val BMA = 0.3645
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.70      0.14      0.23      3266
+          NV       0.77      0.74      0.75      2147
+         BCC       0.36      0.44      0.40       903
+          AK       0.22      0.21      0.22       362
+         BKL       0.13      0.58      0.22       560
+          DF       0.11      0.17      0.14        60
+        VASC       0.11      0.22      0.15        76
+         SCC       0.09      0.42      0.15       163
+
+    accuracy                           0.39      7537
+   macro avg       0.31      0.36      0.28      7537
+weighted avg       0.59      0.39      0.40      7537
+
+Confusion Matrix:
+[[ 455  343  495  188 1227   60  122  376]
+ [ 119 1595   52   14  320   12    2   33]
+ [  22   45  397   29  276    0    5  129]
+ [   5    7   60   76  172    0    2   40]
+ [  48   81   30    9  323    3    1   65]
+ [   0    3   12    3   22   10    2    8]
+ [   2    5    9    0   33    2   17    8]
+ [   1    4   35   19   35    1    0   68]]
+
+EarlyStopping: No improvement in BMA for 4 epoch(s).
+
+Epoch 7: Train Loss = 0.2544
+Epoch 7: Val Loss = 2.5437, Val Acc = 0.3945
+Val Acc = 0.3945, Val BMA = 0.3589
+Classification Report:
+              precision    recall  f1-score   support
+
+         MEL       0.68      0.16      0.26      3266
+          NV       0.76      0.73      0.75      2147
+         BCC       0.36      0.43      0.39       903
+          AK       0.24      0.21      0.22       362
+         BKL       0.14      0.55      0.22       560
+          DF       0.07      0.12      0.09        60
+        VASC       0.13      0.21      0.16        76
+         SCC       0.09      0.45      0.15       163
+
+    accuracy                           0.39      7537
+   macro avg       0.31      0.36      0.28      7537
+weighted avg       0.58      0.39      0.40      7537
+
+Confusion Matrix:
+[[ 526  347  509  178 1109   67  103  427]
+ [ 145 1576   48   17  308   14    1   38]
+ [  27   51  387   27  269    3    4  135]
+ [   8    9   61   77  166    1    1   39]
+ [  66   74   24   13  310    3    0   70]
+ [   0    6   11    2   22    7    2   10]
+ [   3    7    9    0   26    3   16   12]
+ [   3    4   37   13   31    1    0   74]]
+
+EarlyStopping: No improvement in BMA for 5 epoch(s).
+Stopping early at epoch 7.
