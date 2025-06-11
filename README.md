@@ -13,7 +13,7 @@ Spring 2025
 4. `MIDAS.ipynb`: after selecting highest performing model from dev experiments in (3), trained on full ISIC training set, fine-tuned on midas
 5. `plots.ipynb`: code for creating plots, confusion matrices from results logs 
 
-![Model Training Scheme](training-procedure.png)
+<img src="training-procedure.png" alt="Model Training Scheme" width="500"/>
 
 ## Directories
 1. All models designed and tested can be found in `modeles` as separate scripts
