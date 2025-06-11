@@ -4,7 +4,9 @@
 
 **Project Title:** Improving deep learning-based diagnosis of skin malignancies using the Melanoma Research Alliance Multimodal Image Dataset for AI-based Skin Cancer (MIDAS) diagnosis
 
-**Note:** Code transferred from Colab. All input images and model weight files omitted given Github constraints.
+**Github Link:** https://github.com/Bio-Programmer/midas
+
+**Note:** Code transferred from Colab. All input images and model weight files omitted given Github constraints. 
 
 ## Notebooks
 1. `starter.ipynb`: initializing codebase and importing dataests (ISIC, MIDAS)
